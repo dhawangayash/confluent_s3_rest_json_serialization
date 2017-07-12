@@ -9,7 +9,10 @@ This is a place holder for all the confluent configurations needed to setup a si
 [kafka-rest.properties]()
 
 #### Connector S3 Configs
-Connector for S3 in stand alone mode requires ```./bin/connect-standalone ./etc/kafka-connect-s3/worker.properties ./etc/kafka-connect-s3/quickstart-s3.properties ```
+Connector for S3 in stand alone mode command 
+```
+./bin/connect-standalone ./etc/kafka-connect-s3/worker.properties ./etc/kafka-connect-s3/quickstart-s3.properties
+```
 
 Remember when you are using JSON serialization without Avro schema definition you need to set the following properties to false: 
 ```properties
